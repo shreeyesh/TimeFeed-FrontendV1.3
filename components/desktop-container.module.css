@@ -1,0 +1,811 @@
+.featuredPosts {
+  position: relative;
+  font-weight: 600;
+}
+.featuredPostsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.create {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--inter-medium-16);
+  color: var(--primary-blue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.button,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--primary-blue);
+  padding: var(--padding-base) var(--padding-5xl);
+  background-color: var(--nft-app-white);
+  border-radius: var(--br-31xl);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-856xl);
+}
+.image29Icon,
+.image49Icon {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+.image49Icon {
+  left: 0.57px;
+  border-radius: var(--br-5xs);
+  width: 301.71px;
+  height: 330px;
+}
+.image29Icon {
+  height: 115.38%;
+  width: 115.38%;
+  right: -15.38%;
+  bottom: -15.38%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.profile,
+.profile1,
+.profile2,
+.profile3,
+.profile4 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--nft-app-white);
+  border: 2px solid var(--grey-200);
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.profile1,
+.profile2,
+.profile3,
+.profile4 {
+  z-index: 1;
+  margin-left: -12px;
+}
+.profile2,
+.profile3,
+.profile4 {
+  z-index: 2;
+}
+.profile3,
+.profile4 {
+  z-index: 3;
+}
+.profile4 {
+  z-index: 4;
+}
+.verified2Icon {
+  position: absolute;
+  margin: 0 !important;
+  height: 55.56%;
+  width: 13.89%;
+  top: 63.89%;
+  right: -1.77%;
+  bottom: -19.44%;
+  left: 87.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 5;
+}
+.profileParent {
+  position: absolute;
+  top: 310px;
+  left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild,
+.iconlyboldgraph {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameChild {
+  border-radius: var(--br-23xl);
+  width: 124px;
+  height: 48px;
+  object-fit: cover;
+}
+.iconlyboldgraph {
+  height: 96%;
+  width: 22.87%;
+  right: 77.13%;
+  bottom: 4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: 3px;
+  left: 28.92px;
+  letter-spacing: 0.01em;
+  line-height: 22px;
+  font-weight: 500;
+}
+.iconlyboldgraphParent {
+  position: absolute;
+  top: 11px;
+  left: 11.08px;
+  width: 100.92px;
+  height: 25px;
+}
+.frameItem,
+.rectangleParent {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 124px;
+  height: 48px;
+}
+.frameItem {
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-23xl);
+  background-color: var(--color-gray-900);
+  backdrop-filter: blur(32px);
+  width: 48px;
+  appearance: none;
+}
+.frameItem:active,
+.frameItem:hover {
+  background-color: var(--color-gray-300);
+}
+.frameItem:checked {
+  background-color: var(--color-gray-300);
+}
+.vuesaxlinearheartSlashIcon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+.frameInner,
+.rectangleGroup {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  width: 48px;
+  height: 48px;
+}
+.frameInner {
+  cursor: pointer;
+  top: 0;
+  border-radius: var(--br-23xl);
+  background-color: var(--color-gray-900);
+  backdrop-filter: blur(32px);
+  appearance: none;
+}
+.frameInner:active,
+.frameInner:hover {
+  background-color: var(--color-tomato-100);
+}
+.frameInner:checked {
+  background-color: var(--color-tomato-100);
+}
+.vuesaxboldheartIcon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+.vuesaxboldheartIcon:checked {
+  appearance: none;
+}
+.frameDiv,
+.rectangleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+}
+.frameDiv {
+  top: 12px;
+  left: 242px;
+  height: 102px;
+}
+.auctions1 {
+  border-radius: var(--br-xs);
+  width: 302px;
+  height: 330px;
+  background-image: url(/auctions@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.auctions1,
+.formationOfUse,
+.image29Icon5 {
+  position: relative;
+  flex-shrink: 0;
+}
+.formationOfUse {
+  font-weight: 600;
+  display: inline-block;
+  width: 267px;
+}
+.image29Icon5 {
+  width: 14.77px;
+  height: 24px;
+  object-fit: cover;
+}
+.formationOfUseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.iFeelLike {
+  margin: 0;
+}
+.description {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.descriptionWrapper,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  justify-content: center;
+  font-size: var(--text-xs-regular-size);
+  color: var(--grey-700);
+}
+.frameParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.div1,
+.timeGained {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 221px;
+  flex-shrink: 0;
+}
+.div1 {
+  color: var(--primary-blue);
+  text-align: right;
+  width: 73px;
+}
+.frameParent1,
+.timeGainedParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--inter-medium-16-size);
+}
+.frameParent1 {
+  flex-direction: column;
+  gap: var(--gap-16xl);
+  font-size: var(--font-size-xl);
+  color: var(--text-black);
+}
+.auctions,
+.auctionsIcon {
+  border-radius: var(--br-xs);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.auctions {
+  background-color: var(--nft-app-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-5xs) var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-17xl);
+}
+.auctionsIcon {
+  position: relative;
+  width: 342px;
+  height: 524px;
+  object-fit: cover;
+}
+.image46Icon,
+.rectangleIcon {
+  position: absolute;
+  top: 12px;
+  left: 11.86px;
+  border-radius: var(--br-23xl);
+  width: 124px;
+  height: 48px;
+  object-fit: cover;
+}
+.image46Icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  width: 301.71px;
+  height: 330px;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 11px;
+  left: 13.86px;
+  width: 124px;
+  height: 48px;
+}
+.description1 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  width: 290px;
+  flex-shrink: 0;
+}
+.frameParent3 {
+  position: absolute;
+  top: 366px;
+  left: 3.86px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  font-size: var(--font-size-xl);
+  color: var(--text-black);
+}
+.auctions3,
+.rectangleParent1 {
+  position: absolute;
+  top: 0;
+  left: 0.14px;
+  width: 301.71px;
+  height: 517px;
+}
+.auctions3 {
+  top: 8px;
+  left: 8px;
+  border-radius: var(--br-xs);
+  width: 302px;
+  height: 330px;
+  background-image: url(/auctions@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.div3,
+.timeGained1 {
+  position: absolute;
+  top: 476px;
+  font-weight: 600;
+}
+.timeGained1 {
+  left: 24px;
+  color: var(--text-black);
+  display: inline-block;
+  width: 221px;
+}
+.div3 {
+  left: 245px;
+  color: var(--primary-blue);
+  text-align: right;
+}
+.auctions2 {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--nft-app-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 506px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.auctions5,
+.image45Icon {
+  position: absolute;
+  height: 330px;
+}
+.image45Icon {
+  top: 0;
+  left: 0.43px;
+  border-radius: var(--br-5xs);
+  width: 301.71px;
+  object-fit: cover;
+}
+.auctions5 {
+  top: 8px;
+  left: 8px;
+  border-radius: var(--br-xs);
+  width: 302px;
+  background-image: url(/auctions@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: var(--nft-app-white);
+}
+.description2 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  width: 279px;
+  flex-shrink: 0;
+}
+.auctionsInner {
+  position: absolute;
+  top: 374px;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+}
+.div5 {
+  position: relative;
+  font-weight: 600;
+  color: var(--primary-blue);
+  text-align: right;
+}
+.timeGainedGroup {
+  position: absolute;
+  top: 474px;
+  left: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.auctions4 {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--nft-app-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 500px;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: var(--text-black);
+}
+.auctionsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.image56Icon {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border-radius: var(--br-5xs);
+  width: 300px;
+  height: 330px;
+  object-fit: cover;
+}
+.frameParent6,
+.timeGainedContainer {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  top: 374px;
+  left: 12px;
+  flex-direction: column;
+  gap: var(--gap-25xl);
+  font-size: var(--font-size-xl);
+}
+.timeGainedContainer {
+  top: 463px;
+  left: 33px;
+  flex-direction: row;
+}
+.auctions6 {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--nft-app-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 500px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.div9,
+.timeGained4 {
+  position: absolute;
+  top: 472px;
+  font-weight: 600;
+}
+.timeGained4 {
+  left: 28px;
+  display: inline-block;
+  width: 221px;
+}
+.div9 {
+  left: 249px;
+  color: var(--primary-blue);
+  text-align: right;
+}
+.frameParent10 {
+  position: absolute;
+  top: 374px;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  font-size: var(--font-size-xl);
+  color: var(--text-black);
+}
+.auctions10,
+.image60Icon {
+  border-radius: var(--br-xs);
+}
+.auctions10 {
+  position: relative;
+  background-color: var(--nft-app-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 500px;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: var(--nft-app-white);
+}
+.image60Icon {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 300px;
+  height: 330px;
+  object-fit: cover;
+}
+.div12,
+.timeGained5 {
+  position: absolute;
+  top: 473px;
+  font-weight: 600;
+}
+.timeGained5 {
+  left: 44px;
+  display: inline-block;
+  width: 221px;
+}
+.div12 {
+  left: 265px;
+  color: var(--primary-blue);
+  text-align: right;
+}
+.auctionsGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--text-black);
+}
+.div14,
+.timeGained6 {
+  position: absolute;
+  top: 473px;
+  font-weight: 600;
+}
+.timeGained6 {
+  left: 31px;
+  display: inline-block;
+  width: 221px;
+}
+.div14 {
+  left: 252px;
+  color: var(--primary-blue);
+  text-align: right;
+}
+.description10 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  width: 296px;
+  flex-shrink: 0;
+}
+.div18,
+.timeGained7 {
+  position: absolute;
+  top: 471px;
+  font-weight: 600;
+}
+.timeGained7 {
+  left: 30px;
+  display: inline-block;
+  width: 221px;
+}
+.div18 {
+  left: 251px;
+  color: var(--primary-blue);
+  text-align: right;
+}
+.auctions20 {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--nft-app-white);
+  box-shadow: 0 8px 12px rgba(30, 30, 30, 0.04);
+  width: 318px;
+  height: 501px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.image73Icon {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border-radius: var(--br-5xs);
+  width: 301px;
+  height: 330px;
+  object-fit: cover;
+}
+.div20,
+.timeGained8 {
+  position: absolute;
+  top: 463px;
+  font-weight: 600;
+}
+.timeGained8 {
+  left: 30px;
+  display: inline-block;
+  width: 221px;
+}
+.div20 {
+  left: 251px;
+  color: var(--primary-blue);
+  text-align: right;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--inter-medium-16-size);
+  color: var(--nft-app-white);
+}
+.vuesaxlineararrowLeftIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 8px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.arrowRightIcon,
+.refreshIcon,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 72.25%;
+  width: 9.15%;
+  top: 13.54%;
+  right: 45.91%;
+  bottom: 14.21%;
+  left: 44.95%;
+  object-fit: cover;
+}
+.arrowRightIcon,
+.refreshIcon {
+  height: 100%;
+  width: 25.53%;
+  top: 0;
+  right: 74.47%;
+  bottom: 0;
+  left: 0;
+}
+.refreshIcon {
+  width: 100%;
+  right: 0;
+}
+.vectorIcon1,
+.vuesaxlinearrefresh {
+  position: absolute;
+  height: 100%;
+  width: 25.53%;
+}
+.vuesaxlinearrefresh {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 74.47%;
+}
+.vectorIcon1 {
+  top: 100%;
+  right: 11.7%;
+  bottom: -100%;
+  left: 62.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0;
+}
+.arrowRight,
+.vuesaxlineararrowRight {
+  position: absolute;
+  top: 3px;
+  left: -3px;
+  width: 94px;
+  height: 24px;
+}
+.vuesaxlineararrowRight {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 24px;
+  left: 346px;
+  width: 24px;
+}
+.desktop1 {
+  position: relative;
+  background-color: var(--grey-100);
+  width: 1435px;
+  height: 2269px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--text-black);
+  font-family: var(--inter-medium-16);
+}
